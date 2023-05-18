@@ -41,7 +41,7 @@ async def main():
     global counter
     lock = asyncio.Lock()
 
-    # task = [asyncio.create_task(increment(lock)) for _ in range(100)]
+    # tasks = [asyncio.create_task(increment(lock)) for _ in range(100)]
 
     # await asyncio.gather(*tasks)
 
